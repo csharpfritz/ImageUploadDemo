@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+
+    <div style="width: 600px">
+
+        <form method="post" enctype="multipart/form-data">
+
+                <label for="uploadFile">Upload an image</label><br />
+                <input type="file" name="uploadFile" accept="image/*" />
+
+                <br />
+                <br />
+
+                <input type="submit" value="Save Image" />
+
+        </form>
+
+    </div>
+
+</div>
